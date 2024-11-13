@@ -89,7 +89,7 @@ body.fotos #navegacao a#fotos {
     float: left;
 }
 
-#duas-colunas #primario {
+#uma-colunas #primario {
     margin: 0 0 20px 195px;
     width: 750px;
     float: left;
@@ -188,6 +188,38 @@ h3 {
 .entrevista h3 {
     background: #de003e;
     color: #000;
+}
+
+/* FORMATANDO LISTA NOTÍCIAS */
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+    background: none;
+    color: #3e7ab9;
+    font-size: 0.8em;
+    padding: 0;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
 }
 
 /*  RODAPÉ */
